@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>My Profile</title>
+
+<link rel="stylesheet" href="style.css">
+
+<script src="script.js" defer> </script>
+
+</head>
+
+</body>
+
+<div class="content">
+  <!-- Page content -->
+
+
+<body class = "toggledark">
+
+
+<!-- Simple Navigation -->
+
+<div>
+
+<button id="themeBtn">
+<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M480-120q-150 0-255-105T120-480q0-150 105-255t255-105q14 0 27.5 1t26.5 3q-41 29-65.5 75.5T444-660q0 90 63 153t153 63q55 0 101-24.5t75-65.5q2 13 3 26.5t1 27.5q0 150-105 255T480-120Z"/></svg>
+</button>
+
+</div>
+
+<div class="navbar">
+
+<h2>
+
+<a href="#home">Home</a> |
+
+<a href="#about">About Me</a>
+
+</h2>
+
+</div>
+
+
+<hr>
+
+
+<!-- 2-Column Layout -->
+
+<table>
+
+<tr>
+
+
+<!-- LEFT COLUMN -->
+
+<td id="left-column">
+
+
+<div class="home">
+
+<img src="image.png" alt="Profile Image"br>
+</div>
+
+<div class="user">
+
+<h2>Francis Vince Madriaga</h2>
+
+<span id="job_title">Bootleg Developer</span>
+
+</div>
+<button id="editJobBtn">Edit Job Title</button>
+
+<hr>
+
+
+<div>
+
+<h3>Contacts</h3>
+
+<p>Email:<a href="mailto:henrepogisivince@gmail.com" style="text-decoration: none;"> henrepogisivince@gmail.com</a></p>
+<p><a href="https://www.linkedin.com/"style= "text-decoration: none;" >LinkedIn</a></p>
+<p>09504385633</p>
+
+</div>
+
+
+<hr>
+
+<button id="toggleSkillsBtn">Hide Skills</button>
+
+<div id="job-title">
+
+<h3>Skills</h3>
+
+<dl>
+
+<dt>Frontend</dt>
+
+<dd>HTML</dd>
+
+<dd>CSS</dd>
+
+<dd>JavaScript</dd>
+
+<dt>Backend</dt>
+
+<dd>Python</dd>
+
+
+</dl>
+
+</div>
+
+
+</td>
+
+<!-- RIGHT COLUMN -->
+
+<td>
+
+
+<div class="about">
+
+<h2>About Me</h2>
+
+<p> A motivated and detail-oriented IT student with a strong foundation in computer systems ever since when I was a kid, programming, and network management. Skilled in troubleshooting, software development, and database administration with hands-on experience from academic projects and internships.</p>
+
+</div>
+
+
+
+<hr>
+
+
+<div class="Message">
+
+<h2>Message Me</h2>
+
+<form action="submit" method="post">
+
+<p>
+
+Name:<br><input type="text" id="nameField" name="name" required placeholder="Enter your name">
+
+</p>
+
+<p>
+
+Email:<br><input type="email" id="emailField" name="email" required placeholder="Enter your email">
+
+</p>
+
+<p>
+
+Message:<textarea id="textarea" maxlength="200" placeholder="Type your message here...">
+</textarea>
+<p>Characters left: <span id="counter">200</span></p>
+</p>
+
+<p>
+
+<input type="submit" value="Send" class="sendButton">
+
+</p>
+
+</form>
+
+</div>
+<div class="quotes">
+  <blockquote id="quote">Loading...</blockquote>
+  <span>—Technoblade</span>
+  <div>
+    <button id="newquote">New Quote</button>
+  </div>
+</div>
+
+
+</td>
+
+
+</tr>
+
+</table>
+
+
+<hr>
+
+</div>
+
+<!-- FOOTER -->
+
+<div class="foot">
+
+<p>
+
+<center><strong>WebProg - Web Programming 2025<p id="dateDisplay"></p>
+</strong></center>
+
+</p>
+
+</div>
+
+
+</body>
+
+</html>
